@@ -141,3 +141,10 @@ MESSAGE_TAGS = {
     constants.SUCCESS: 'alert-success',
     constants.INFO: 'alert-info',
 }
+
+
+
+try:
+    from .local_settings import *
+except:
+    pass
