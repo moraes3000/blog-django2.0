@@ -11,7 +11,7 @@
                     <div class="card">
 
                         <a href="{% url 'post_detalhes' post.id %}">
-                            {% if imagem_post %}
+                            {% if post.imagem_post %}
                                 <img class="card-img-top"
                                      src="{{ post.imagem_post.url }}"
                                      alt="{{ post.titulo_post }}">
