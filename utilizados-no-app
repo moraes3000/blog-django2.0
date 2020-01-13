@@ -1,7 +1,18 @@
+#pillow
 python -m pip install --upgrade pip
 python -m pip install --upgrade Pillow
 
+#editor de texto
 #https://github.com/summernote/django-summernote
 
+
+#editor de css para form
 #https://github.com/django-crispy-forms/django-crispy-forms
 #https://django-crispy-forms.readthedocs.io/en/latest/install.html
+
+#Axes bloquei o login apos 3 tentativas
+#python manage.py axes_reset
+#https://django-axes.readthedocs.io/en/latest/2_installation.html
+
+#Mensagem de validar form "eu nao sou robo"
+#https://www.google.com/recaptcha/intro/v3.html
